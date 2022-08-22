@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:lightgrey;
+}
+
+h1, nav {
+    margin: 0px 30px 0px 30px;
+}
+
+h2, p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+li {
+    padding: 10px 10px 10px 10px;
+    font-weight: bold;
+}
+
+li:hover {
+    background-color:grey;
+}
+
+a {
+    text-decoration: none;
+}
+
+textarea {
+    width: 200px;
+    height: 50px;
+    resize: none;
+}
+
+form, .card{
+    display: flex;
+    justify-content: center;
+}
+
+.form_area, .card_body {
+    display: flex;
+    height: 200px;
+    width: 500px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 0px 50px 0px;
+    padding: 20px 0px 20px 0px;
+    background-color: lightgrey;
+    border-radius: 10px;
+    box-shadow: 2px 2px darkgray;
+}
+
+.card_body {
+    justify-content: center;
+    margin: 20px 0px 20px 0px;
+    height: fit-content;
+}
+
+.txt_sec {
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.sec_name, .sec_email, .sec_feedback, .sec_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input.sub_btn {
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    background-color: lightgray;
+    font-weight: bold;
+}
+
+input.sub_btn:hover {
+    background-color: gray;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+}
